@@ -6,9 +6,12 @@
  */
 int main(void)
 {
-int a = 0;
-for (; a < 10 ; a++)
-putchar("0" + a);
+int c = 0;
+while (c < 10)
+{
+putchar(48 + c);
+c++;
+}
 putchar('\n');
 return (0);
 }
